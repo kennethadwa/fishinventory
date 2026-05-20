@@ -61,14 +61,14 @@
             </a>
 
             <!-- FISH TYPES -->
-            <a href="#"
+            <a href="{{ route('fish-types.index') }}"
                class="flex items-center gap-3 px-4 py-2 text-sm rounded-lg hover:bg-[#132A47] transition">
                 <span>🐟</span>
                 <span x-show="sidebarOpen" x-transition>Fish Types</span>
             </a>
 
             <!-- CATCHES -->
-            <a href="#"
+            <a href="{{ route('catches.index') }}"
                class="flex items-center gap-3 px-4 py-2 text-sm rounded-lg hover:bg-[#132A47] transition">
                 <span>🎣</span>
                 <span x-show="sidebarOpen" x-transition>Catches</span>

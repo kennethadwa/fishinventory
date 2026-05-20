@@ -29,4 +29,10 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+
+    public function catches()
+{
+    return $this->hasMany(CatchModel::class, 'created_by');
+}
 }
